@@ -12,3 +12,4 @@ chatResponse = llm.invoke(myQuery)
 
 # Print output
 print("Heres what ChatGPT said \n\n", chatResponse.content)
+st.write(chatResponse.content)
