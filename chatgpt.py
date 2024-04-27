@@ -1,5 +1,6 @@
 # This program calls ChatGPT!
 from langchain_openai import ChatOpenAI
+import streamlit as st
 
 # Set variables
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
